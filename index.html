@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="DORA - Piattaforma healthtech per l'assistenza domiciliare. Connettiamo famiglie e operatori qualificati con tecnologia e umanità.">
+    <meta name="keywords"
+        content="assistenza domiciliare, caregiver, healthtech, assistenza anziani, fisioterapia domicilio, infermieri domicilio">
+    <meta name="author" content="DORA srl">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="DORA - Accanto a chi ami">
+    <meta property="og:description"
+        content="Piattaforma digitale per l'assistenza domiciliare socio-sanitaria. Tecnologia e professionisti al servizio della cura.">
+    <meta property="og:image" content="images/og-image.jpg">
+    <meta property="og:url" content="https://chiamadora.it">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="DORA - Accanto a chi ami">
+    <meta name="twitter:description" content="Piattaforma healthtech per assistenza domiciliare qualificata">
+
+    <title>DORA - Accanto a chi ami | Assistenza Domiciliare Qualificata</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
+
+    <!-- JSON-LD Schema.org -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "DORA srl",
+        "alternateName": "ChiamaDora",
+        "url": "https://chiamadora.it",
+        "logo": "https://chiamadora.it/images/logo.jpg",
+        "description": "Piattaforma healthtech per l'assistenza domiciliare socio-sanitaria e specialistica",
+        "foundingDate": "2026",
+        "founders": [
+            {
+                "@type": "Person",
+                "name": "Federica Arceri"
+            }
+        ],
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+39-320-4179780",
+            "contactType": "customer service",
+            "availableLanguage": "Italian"
+        },
+        "sameAs": [
+            "https://facebook.com/chiamadora",
+            "https://instagram.com/chiamadora",
+            "https://linkedin.com/company/chiamadora"
+        ]
+    }
+    </script>
+</head>
+
+<body>
+    <!-- Cookie Banner -->
+    <div id="cookie-banner" class="cookie-banner" role="alert" aria-live="polite">
+        <div class="cookie-banner-content">
+            <p class="cookie-banner-text">
+                <i class="fas fa-cookie-bite" aria-hidden="true"></i>
+                Utilizziamo cookie per migliorare la tua esperienza.
+                <a href="cookie/cookie-policy.html" class="cookie-link">Scopri di più</a>
+            </p>
+            <div class="cookie-buttons">
+                <button id="cookie-reject" class="btn-cookie btn-cookie-secondary" aria-label="Rifiuta tutti i cookie">
+                    Rifiuta
+                </button>
+                <button id="cookie-customize" class="btn-cookie btn-cookie-outline"
+                    aria-label="Personalizza le impostazioni cookie">
+                    Personalizza
+                </button>
+                <button id="cookie-accept" class="btn-cookie btn-cookie-primary" aria-label="Accetta tutti i cookie">
+                    Accetta tutto
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="header" id="header" role="banner">
+        <nav class="nav container" role="navigation" aria-label="Navigazione principale">
+            <a href="index.html" class="nav-logo" aria-label="DORA - Home">
+                <img src="images/logo.jpg" alt="DORA - Accanto a chi ami" class="logo-img">
+            </a>
+
+            <button class="nav-toggle" id="nav-toggle" aria-label="Apri menu" aria-expanded="false"
+                aria-controls="nav-menu">
+                <span class="hamburger"></span>
+            </button>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="servizi/servizi.html" class="nav-link">I Servizi</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#come-funziona" class="nav-link">Come Funziona</a>
+                </li>
+                <li class="nav-item">
+                    <a href="famiglie/famiglie.html" class="nav-link">Per le Famiglie</a>
+                </li>
+                <li class="nav-item">
+                    <a href="operatori/operatori.html" class="nav-link nav-link-highlight">Unisciti alla Rete</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main role="main">
+        <!-- Hero Section -->
+        <section class="hero" id="home" aria-labelledby="hero-title">
+            <div class="hero-background">
+                <div class="hero-blob blob-1"></div>
+                <div class="hero-blob blob-2"></div>
+                <div class="hero-blob blob-3"></div>
+            </div>
+
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1 id="hero-title" class="hero-title">
+                        Accanto a chi ami,
+                        <span class="hero-title-highlight">con tecnologia e cuore</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Piattaforma digitale che connette famiglie e operatori qualificati
+                        per un'assistenza domiciliare umana, sicura e personalizzata.
+                    </p>
+
+                    <div class="hero-ctas">
+                        <a href="operatori/operatori.html" class="btn btn-primary btn-large">
+                            <i class="fas fa-user-nurse" aria-hidden="true"></i>
+                            Sei un Operatore? Unisciti alla rete
+                        </a>
+                        <a href="famiglie/famiglie.html" class="btn btn-outline btn-large">
+                            <i class="fas fa-hands-helping" aria-hidden="true"></i>
+                            Cerchi assistenza? Scopri i servizi
+                        </a>
+                    </div>
+
+                    <div class="hero-features">
+                        <div class="hero-feature">
+                            <i class="fas fa-check-circle" aria-hidden="true"></i>
+                            <span>Operatori certificati</span>
+                        </div>
+                        <div class="hero-feature">
+                            <i class="fas fa-check-circle" aria-hidden="true"></i>
+                            <span>Tracciamento in tempo reale</span>
+                        </div>
+                        <div class="hero-feature">
+                            <i class="fas fa-check-circle" aria-hidden="true"></i>
+                            <span>Massima trasparenza</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <div class="hero-image-wrapper">
+                        <img src="images/hero.jpg"
+                            alt="Operatore sanitario che assiste una persona anziana con sorriso e professionalità"
+                            class="hero-img">
+                        <div class="hero-badge">
+                            <span class="hero-badge-number">1000+</span>
+                            <span class="hero-badge-text">Operatori in rete</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-scroll">
+                <button class="scroll-indicator"
+                    onclick="document.getElementById('ecosistema').scrollIntoView({behavior: 'smooth'})"
+                    aria-label="Scorri verso il basso">
+                    <i class="fas fa-chevron-down" aria-hidden="true"></i>
+                </button>
+            </div>
+        </section>
+
+        <!-- Ecosistema Servizi Teaser -->
+        <section class="section section-ecosistema" id="ecosistema" aria-labelledby="ecosistema-title">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">I Nostri Servizi</span>
+                    <h2 id="ecosistema-title" class="section-title">L'ecosistema DORA</h2>
+                    <p class="section-subtitle">
+                        Soluzioni complete per ogni esigenza di assistenza,
+                        dalla quotidianità alla cura specialistica
+                    </p>
+                </div>
+
+                <div class="servizi-grid">
+                    <!-- Servizio 1 -->
+                    <a href="servizi/servizi.html#caregiver" class="servizio-card servizio-card-large">
+                        <div class="servizio-icon-wrapper">
+                            <div class="servizio-icon">
+                                <i class="fas fa-hands-helping" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <h3 class="servizio-title">Caregiver Professionali & Servizi Pratici</h3>
+                        <p class="servizio-description">
+                            Supporto concreto nella vita quotidiana: igiene personale, spesa,
+                            preparazione pasti, aiuto domestico leggero e accompagnamento a visite mediche.
+                        </p>
+                        <span class="servizio-link">
+                            Scopri di più <i class="fas fa-arrow-right"></i>
+                        </span>
+                    </a>
+
+                    <!-- Servizio 2 -->
+                    <a href="servizi/servizi.html#medici" class="servizio-card">
+                        <div class="servizio-icon-wrapper">
+                            <div class="servizio-icon servizio-icon-medical">
+                                <i class="fas fa-stethoscope" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <h3 class="servizio-title">Servizi Medici & Specialistici</h3>
+                        <p class="servizio-description">
+                            Accesso diretto a infermieri, fisioterapisti e professionisti
+                            della medicina riabilitativa per cura e monitoraggio sanitario.
+                        </p>
+                        <span class="servizio-link">
+                            Scopri di più <i class="fas fa-arrow-right"></i>
+                        </span>
+                    </a>
+
+                    <!-- Servizio 3 -->
+                    <a href="servizi/servizi.html#sociale" class="servizio-card">
+                        <div class="servizio-icon-wrapper">
+                            <div class="servizio-icon servizio-icon-social">
+                                <i class="fas fa-heart" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <h3 class="servizio-title">Supporto Sociale & Digitale</h3>
+                        <p class="servizio-description">
+                            Telefonate di check-in, compagnia, stimolazione cognitiva e
+                            assistenza nell'uso di smartphone e tablet.
+                        </p>
+                        <span class="servizio-link">
+                            Scopri di più <i class="fas fa-arrow-right"></i>
+                        </span>
+                    </a>
+                </div>
+
+                <!-- Trasparenza Prezzi -->
+                <div class="trasparenza-box">
+                    <div class="trasparenza-icon">
+                        <i class="fas fa-euro-sign" aria-hidden="true"></i>
+                    </div>
+                    <div class="trasparenza-content">
+                        <h3>Massima Trasparenza Tariffaria</h3>
+                        <p>
+                            Ogni operatore inserisce la propria tariffa. Scegli in totale trasparenza,
+                            senza sorprese. Come su Vinted: prendi quello che chiedi.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="section-cta-center">
+                    <a href="servizi/servizi.html" class="btn btn-primary btn-large">
+                        Scopri tutti i servizi
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Come Funziona - Stacking Cards -->
+        <section class="section section-come-funziona" id="come-funziona" aria-labelledby="come-funziona-title">
+            <div class="container">
+                <div class="section-header section-header-center">
+                    <span class="section-tag">Come Funziona</span>
+                    <h2 id="come-funziona-title" class="section-title">Semplice, veloce, sicuro</h2>
+                    <p class="section-subtitle">
+                        Tre passaggi per trovare l'assistenza perfetta
+                    </p>
+                </div>
+
+                <div class="stacking-container">
+                    <!-- Card 1 -->
+                    <article class="stacking-card stacking-card-1">
+                        <div class="stacking-card-content">
+                            <div class="stacking-number">01</div>
+                            <div class="stacking-icon">
+                                <i class="fas fa-search-location" aria-hidden="true"></i>
+                            </div>
+                            <h3 class="stacking-title">Matching Intelligente</h3>
+                            <p class="stacking-text">
+                                Inserisci le tue esigenze e la tua posizione.
+                                Il nostro algoritmo trova gli operatori più qualificati
+                                nella tua zona in pochi secondi.
+                            </p>
+                            <div class="stacking-features">
+                                <span><i class="fas fa-map-marker-alt"></i> Geolocalizzazione</span>
+                                <span><i class="fas fa-filter"></i> Filtri avanzati</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 2 -->
+                    <article class="stacking-card stacking-card-2">
+                        <div class="stacking-card-content">
+                            <div class="stacking-number">02</div>
+                            <div class="stacking-icon">
+                                <i class="fas fa-user-check" aria-hidden="true"></i>
+                            </div>
+                            <h3 class="stacking-title">Operatori Verificati</h3>
+                            <p class="stacking-text">
+                                Ogni professionista è certificato e verificato.
+                                Visualizza profili, recensioni, tariffe e disponibilità
+                                prima di scegliere.
+                            </p>
+                            <div class="stacking-features">
+                                <span><i class="fas fa-certificate"></i> Certificazioni</span>
+                                <span><i class="fas fa-star"></i> Recensioni</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 3 -->
+                    <article class="stacking-card stacking-card-3">
+                        <div class="stacking-card-content">
+                            <div class="stacking-number">03</div>
+                            <div class="stacking-icon">
+                                <i class="fas fa-mobile-alt" aria-hidden="true"></i>
+                            </div>
+                            <h3 class="stacking-title">Monitoraggio in Tempo Reale</h3>
+                            <p class="stacking-text">
+                                Segui gli interventi, comunica con l'operatore
+                                e gestisci tutto dall'app. Massima trasparenza
+                                e continuità della cura.
+                            </p>
+                            <div class="stacking-features">
+                                <span><i class="fas fa-clock"></i> Tracciamento</span>
+                                <span><i class="fas fa-comments"></i> Chat diretta</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Valori Section -->
+        <section class="section section-valori" id="valori" aria-labelledby="valori-title">
+            <div class="container">
+                <div class="valori-wrapper">
+                    <div class="valori-content">
+                        <span class="section-tag">I Nostri Valori</span>
+                        <h2 id="valori-title" class="section-title">Umani, Responsabili, Autentici</h2>
+                        <p class="section-subtitle">
+                            Tre principi che guidano ogni nostra azione
+                        </p>
+
+                        <div class="valori-list">
+                            <div class="valore-item">
+                                <div class="valore-icon valore-icon-umani">
+                                    <i class="fas fa-users" aria-hidden="true"></i>
+                                </div>
+                                <div class="valore-text">
+                                    <h3>Umani</h3>
+                                    <p>Empatia e centralità della persona in ogni intervento.
+                                        Mettiamo il cuore in ciò che facciamo.</p>
+                                </div>
+                            </div>
+
+                            <div class="valore-item">
+                                <div class="valore-icon valore-icon-responsabili">
+                                    <i class="fas fa-shield-alt" aria-hidden="true"></i>
+                                </div>
+                                <div class="valore-text">
+                                    <h3>Responsabili</h3>
+                                    <p>Sicurezza, trasparenza e continuità della cura.
+                                        La tua tranquillità è la nostra priorità.</p>
+                                </div>
+                            </div>
+
+                            <div class="valore-item">
+                                <div class="valore-icon valore-icon-autentici">
+                                    <i class="fas fa-leaf" aria-hidden="true"></i>
+                                </div>
+                                <div class="valore-text">
+                                    <h3>Autentici</h3>
+                                    <p>Relazioni stabili e operatori verificati.
+                                        Costruiamo legami veri, non semplici transazioni.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="valori-image">
+                        <div class="valori-image-wrapper">
+                            <img src="images/valori.jpg"
+                                alt="Operatore DORA che assiste con sorriso e professionalità una persona"
+                                class="valori-img">
+                            <div class="valori-circles">
+                                <div class="valore-circle valore-circle-1"></div>
+                                <div class="valore-circle valore-circle-2"></div>
+                                <div class="valore-circle valore-circle-3"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Finale -->
+        <section class="section section-cta" aria-labelledby="cta-title">
+            <div class="container">
+                <div class="cta-box">
+                    <h2 id="cta-title" class="cta-title">Pronto a fare la differenza?</h2>
+                    <p class="cta-text">
+                        Unisciti a DORA e entra a far parte di una rete di professionisti
+                        che mette al centro le persone.
+                    </p>
+                    <div class="cta-buttons">
+                        <a href="operatori/operatori.html" class="btn btn-primary btn-large">
+                            Diventa Operatore DORA
+                        </a>
+                        <a href="famiglie/famiglie.html" class="btn btn-outline btn-large">
+                            Trova Assistenza
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="images/logo.jpg" alt="DORA - Accanto a chi ami" class="footer-logo">
+                    <p class="footer-tagline">Piattaforma healthtech per l'assistenza domiciliare socio-sanitaria</p>
+                    <div class="footer-social">
+                        <a href="https://facebook.com/chiamadora" target="_blank" rel="noopener" aria-label="Facebook"
+                            class="social-link">
+                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://instagram.com/chiamadora" target="_blank" rel="noopener" aria-label="Instagram"
+                            class="social-link">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://linkedin.com/company/chiamadora" target="_blank" rel="noopener"
+                            aria-label="LinkedIn" class="social-link">
+                            <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Servizi</h4>
+                        <ul>
+                            <li><a href="servizi/servizi.html#caregiver">Caregiver</a></li>
+                            <li><a href="servizi/servizi.html#medici">Servizi Medici</a></li>
+                            <li><a href="servizi/servizi.html#sociale">Supporto Sociale</a></li>
+                            <li><a href="servizi/servizi.html#extra">Servizi Extra</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4>Piattaforma</h4>
+                        <ul>
+                            <li><a href="operatori/operatori.html">Per Operatori</a></li>
+                            <li><a href="famiglie/famiglie.html">Per Famiglie</a></li>
+                            <li><a href="#come-funziona">Come Funziona</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4>Legale</h4>
+                        <ul>
+                            <li><a href="privacy/privacy.html">Privacy Policy</a></li>
+                            <li><a href="cookie/cookie-policy.html">Cookie Policy</a></li>
+                            <li><a href="termini.html">Termini e Condizioni</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>Contatti</h4>
+                    <ul class="contact-list">
+                        <li>
+                            <i class="fas fa-phone" aria-hidden="true"></i>
+                            <a href="tel:+393204179780">320 4179780</a>
+                        </li>
+                        <li>
+                            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                            <a href="https://wa.me/393204179780" target="_blank" rel="noopener">WhatsApp</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope" aria-hidden="true"></i>
+                            <a href="mailto:info@chiamadora.com">info@chiamadora.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 DORA srl - P.IVA [Da inserire] - Tutti i diritti riservati</p>
+                <p class="footer-disclaimer">Startup Innovativa - Piattaforma in fase di pre-lancio</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/393204179780" target="_blank" rel="noopener" class="whatsapp-float"
+        aria-label="Contattaci su WhatsApp">
+        <i class="fab fa-whatsapp" aria-hidden="true"></i>
+        <span class="whatsapp-tooltip">Scrivici su WhatsApp</span>
+    </a>
+
+    <!-- Main JavaScript -->
+    <script src="script.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
